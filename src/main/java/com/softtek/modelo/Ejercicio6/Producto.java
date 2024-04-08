@@ -12,7 +12,7 @@ public class Producto {
     private String proveedor;
     private String descripcion;
 
-    public void comprobar() throws Exception {
+    public void comprobar() throws ExceptionID {
         if (ID==0){
             throw new ExceptionID("No tiene ID");
         }
